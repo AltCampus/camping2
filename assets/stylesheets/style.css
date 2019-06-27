@@ -328,6 +328,9 @@ footer {
 .ham {
   display: none; }
 
+i {
+  margin-right: 1rem; }
+
 @media all and (max-width: 768px) {
   html {
     font-size: 14px; }
@@ -508,7 +511,7 @@ footer {
 
 @media all and (max-width: 768px) {
   .hero-div {
-    width: 400px; }
+    width: 80%; }
   .sec1-grid,
   .sec4-grid,
   .sec5-grid {
@@ -545,3 +548,17 @@ footer {
 /*Map*/
 .map-embed {
   width: 100%; }
+
+.gallery-img {
+  width: 350px;
+  margin: 0 auto; }
+  .gallery-img img {
+    width: 100%; }
+
+.img-grid {
+  margin-bottom: 5rem; }
+
+@media all and (max-width: 768px) {
+  .gallery-img {
+    width: 300px img;
+      width-width: 100%; } }
