@@ -147,7 +147,7 @@ html {
   line-height: 1.5; }
 
 body {
-  font-family: "Lato", "sans-serif";
+  font-family: "lato", "sans-serif";
   line-height: 1.5; }
 
 h1 {
@@ -252,6 +252,8 @@ p {
   .form-control::placeholder {
     color: #888;
     font-size: 0.9rem; }
+  .form-control .Form-Help {
+    padding-bottom: 5rem; }
 
 .padding {
   padding: 4rem 0; }
@@ -481,8 +483,6 @@ footer {
     font-size: 1rem;
     font-weight: 900;
     padding: 0.5rem 0; }
-  .wrapper2 p {
-    padding-bottom: 5rem; }
 
 /*Map*/
 .map-embed {
