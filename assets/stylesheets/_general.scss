@@ -126,7 +126,9 @@ footer {
 .ham {
   display: none;
 }
-
+i {
+  margin-right: 1rem;
+}
 // Responsive Header & Footer
 @media all and (max-width: 768px) {
   html {
