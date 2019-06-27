@@ -342,6 +342,9 @@ footer {
   margin-right: 0;
   margin-left: 0.5rem; }
 
+textarea {
+  resize: none; }
+
 #toggle,
 .ham {
   display: none; }
